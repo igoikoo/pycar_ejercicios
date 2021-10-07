@@ -9,7 +9,7 @@ pygame.init()
 
 ancho = int(input("Ancho de la ventana:"))
 alto = int(input("Alto de la ventana:"))
-
+size=[1300,600]
 size[0] = ancho
 size[1] = alto
 main2(size)
