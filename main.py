@@ -9,7 +9,7 @@ pygame.init()
 
 ancho = int(input("Ancho de la ventana:"))
 alto = int(input("Alto de la ventana:"))
-size=[1300,600]
-size[0] = ancho
-size[1] = alto
-main2(size)
+size = [ancho, alto]
+azul = (0, 0, 255)
+titulo = input("titulo simulador: ")
+main2(size, titulo, azul)
